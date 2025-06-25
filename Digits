@@ -1,0 +1,16 @@
+package com.mathsProblems;
+//to get last digit %10 , to get number after extracting last digit /10
+public class LastDigit {
+    public static void main(String[] args) {
+        int number=7821;
+        int lastDigit;
+
+        while (number>0){
+            lastDigit=number%10;
+            System.out.println(lastDigit);
+            number=number/10;
+
+        }
+        
+    }
+}
