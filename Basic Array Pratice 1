@@ -1,0 +1,22 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+import java.util.Arrays;
+class Main {
+    public int[] input()
+    {
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        int[] arr=new int[size];
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        return arr;
+    }
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        Main m=new Main();
+       System.out.println(Arrays.toString(m.input()));
+    }
+}
