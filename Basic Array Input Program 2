@@ -1,0 +1,60 @@
+import java.util.Scanner;
+import java.util.Arrays;
+class Main
+{
+    public boolean isPrime(int num)
+    {
+        if(num<=1)
+        {
+            return false;
+        }
+        for(int i=2;i<=(int)Math.sqrt(num);i++)
+        {
+            if(num%i==0)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+    public int[] filterPrimes(int[] arr)
+    {
+        Main m=new Main();
+        int primeCount=0;
+        for(int i=0;i<arr.length;i++)
+        {
+            if(m.isPrime(arr[i]))
+            {
+                primeCount++;
+            }
+        }
+        int[] primeArray=new int[primeCount];
+        int c=0;
+        for(int i=0;i<arr.length;i++)
+        {
+            
+            if(m.isPrime(arr[i]))
+            {
+                
+                primeArray[c++]=arr[i];
+                
+                
+            }
+            
+        }
+        return primeArray;
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter size");
+        int size=sc.nextInt();
+        int[] arr=new int[size];
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        Main m=new Main();
+       System.out.println( Arrays.toString(m.filterPrimes(arr)));
+    }
+}
