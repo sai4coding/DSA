@@ -1,0 +1,81 @@
+import java.util.Arrays;
+import java.util.Scanner;
+class Main{
+    public static int largest(int[] nums)
+    {
+        int large=Integer.MIN_VALUE;
+        for(int i=0;i<nums.length;i++)
+        {
+            if(nums[i]>large)
+            {
+                large=nums[i];
+            }
+        }
+        return large;
+    }
+    public static int secondLarge(int[] nums)
+    {
+        int l1=Integer.MIN_VALUE;
+        int l2=Integer.MIN_VALUE;
+        for(int i=0;i<nums.length;i++)
+        {
+            if(nums[i]>l1)
+            {
+                l2=l1;
+                l1=nums[i];
+            }
+            else if(nums[i]>l2 && nums[i]<l1)
+            {
+                l2=nums[i];
+            }
+        }
+       
+        return l2;
+    }
+    public static int smallest(int[] nums)
+    {
+        int small=Integer.MAX_VALUE;
+        for(int i=0;i<nums.length;i++)
+        {
+            if(nums[i]<small)
+            {
+                small=nums[i];
+            }
+        }
+        return small;
+    }
+    public static int secondSmall(int[] nums)
+    {
+        int small=Integer.MAX_VALUE;
+        int secondsmall=Integer.MAX_VALUE;
+        for(int i=0;i<nums.length;i++)
+        {
+            if(nums[i]<small)
+            {
+                secondsmall=small;
+                small=nums[i];
+            }
+            else if(nums[i]<secondsmall && nums[i]>small)
+            {
+                secondsmall=nums[i];
+            }
+        }
+        return secondsmall;
+        
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        int[] arr=new int[size];
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        System.out.println(Arrays.toString(arr));
+        System.out.println(secondLarge(arr));
+        System.out.println(largest(arr));
+        System.out.println(smallest(arr));
+        System.out.println(secondSmall(arr));
+    }
+}
