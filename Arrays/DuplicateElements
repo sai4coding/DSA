@@ -1,0 +1,14 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        int[] arr={1,6,2,1,7,4,2};
+        HashSet<Integer> s=new HashSet<>();
+        for(int a:arr){
+            s.add(a);
+        }
+        System.out.println(s);
+        
+    }
+}
