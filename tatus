@@ -1,0 +1,121 @@
+[33mcommit d7e48339eb4d6724a61df6c0026c99ec250358d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: sai4coding <nagasaiisukapalli@gmail.com>
+Date:   Sun Jun 28 12:00:39 2026 +0530
+
+    deleated maxSubArray and modified code in largest element
+
+[33mcommit 66fe7eea07be7dc00cd51b55178629ec8a177c14[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Tue Jun 9 07:29:36 2026 +0530
+
+    Add linear search implementation in SearchElement
+    
+    Implement linear search method to find target index.
+
+[33mcommit 6ab9a7d2dcafcb005b056241855d2a0c34bb55d4[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Tue Jun 9 07:28:25 2026 +0530
+
+    Create REmove Duplicates from Sorted Array
+
+[33mcommit cce92e8a27a0413dfc3f34fee7acc56e14e65d7a[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Mon Jun 8 12:16:31 2026 +0530
+
+    Create SearchElement
+    
+    Find an element in an array using Linear Search
+
+[33mcommit f3f18c4f7c9ce401ae1bd46b6757570519a283a9[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Mon Apr 20 08:23:09 2026 +0530
+
+    Add frequency counting for array elements
+    
+    Implement frequency count of array elements using HashMap.
+
+[33mcommit c7a408213cc4d472d0a1081a11e12a6fb2134cc2[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Mon Apr 20 07:56:06 2026 +0530
+
+    Removing duplicate elements using Set Interface
+
+[33mcommit d55a80254ef4e03174e850d550e09b7bd799abff[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Sun Feb 22 19:55:04 2026 +0530
+
+    Implement methods to find largest,Second largest and Smallest , Second smallest numbers
+
+[33mcommit 25221ea54f3fb9ffc5cac54ff8df1b578789a6e9[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Wed Feb 18 19:55:03 2026 +0530
+
+    Add sliding window program to find max subarray sum-optimized
+    
+    Implement sliding window algorithm to find max sum of subarrays.
+
+[33mcommit 561fbdf8f428f3e91f4a4cd71653ebed3e8f7e79[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Wed Feb 18 19:47:04 2026 +0530
+
+    print the max sum of subarrays of size k - brutee force
+    
+    This program reads an array from user input and calculates the maximum sum of subarrays of a specified size.
+
+[33mcommit 0ca17aad1ee161d2ff1015326c73b42d43a513cd[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Wed Feb 18 19:35:27 2026 +0530
+
+    Program to find sunarrays from given array
+    
+    Implement sliding window technique to print subarrays of a specified size.
+
+[33mcommit 7fedcca796b585aeda60be9b9c647e73275a966d[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Sat Feb 14 23:25:02 2026 +0530
+
+    array as parameter and returned array
+
+[33mcommit 7a2c809e5cacca5f2e2f76db88598426f494d85c[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Sat Feb 14 23:01:47 2026 +0530
+
+    Returned An Array
+
+[33mcommit cdedaa31fe406a39c2fe89f9b6b2270ba4feb9e2[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Sun Feb 1 22:37:02 2026 +0530
+
+    Add method to remove adjacent duplicates from string
+    
+    Implement a method to remove adjacent duplicate characters from a string.
+
+[33mcommit a9d9c3492b2a1acf736efc2afbf0052d774a1352[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Wed Jun 25 12:01:03 2025 +0530
+
+    Create CountDigits
+
+[33mcommit 067170cb356c3a8b214f104afcd2029f087190eb[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Wed Jun 25 11:17:34 2025 +0530
+
+    Create Digits
+
+[33mcommit 999eea152dcfcd90d2f0a48712607e3375a3e47f[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Tue Mar 11 07:25:06 2025 +0530
+
+    Create SortedOrNot
+
+[33mcommit 6b4a284c98bbfb5ccf0fe583f4a9ebc949c6b2b5[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Mon Mar 10 11:47:43 2025 +0530
+
+    Create LargestNumberInArray
+
+[33mcommit 5df4cc80cb70ff5b9264419172b026f9bdb0b4bd[m
+Author: sai4coding <155803032+sai4coding@users.noreply.github.com>
+Date:   Mon Mar 10 10:14:03 2025 +0530
+
+    Create maxSubArray(kadanes alg)
